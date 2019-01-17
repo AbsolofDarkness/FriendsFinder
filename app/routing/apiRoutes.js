@@ -10,11 +10,11 @@ module.exports = function (app) {
         let diffValue = 0;
         let bestFriend = null;
 
-        for (let x = 0; x < friendData.length; X++) {
+        for (let x = 0; x < friendData.length; x++) {
             diffValue = 0;
             for (let y = 0; y < friendData[x].scores.length; y++) {
                 let friendScore = friendData[x].scores[y];
-                let userScore = userdata[y];
+                let userScore = userdata.scores[y];
                 
                 diffValue += Math.abs(friendScore - userScore);
             }
@@ -23,6 +23,8 @@ module.exports = function (app) {
                 bestFriend.diffValue = diffValue;
             }
         }
+        friendData.push(userdata);
         res.json(bestFriend);
+
     });
 };
