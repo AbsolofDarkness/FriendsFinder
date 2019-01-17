@@ -1,7 +1,7 @@
 let friendsArray = [
     {
       "name": "Ahmed",
-      "photo": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
+      "photo": "https://www.profiletalent.com.au/wp-content/uploads/2017/05/profile-talent-andrew-okeefe-feature.jpg",
       "scores": [
         "5",
         "1",
@@ -81,7 +81,7 @@ let friendsArray = [
     },
     {
       "name": "Jordan Biason",
-      "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
+      "photo": "https://www.catster.com/wp-content/uploads/2018/05/A-gray-cat-crying-looking-upset.jpg",
       "scores": [
         "4",
         "4",
